@@ -4,14 +4,16 @@
     background-color: aqua;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
-
+    justify-content: space-around;
+    padding-left: 150px; 
+    padding-right: 150px; 
+    
 
     .promo {
         height: 304px;
         width: 236;
         background-color: bisque;
         margin-right: 50px;
-        }
+    }
 
 }
