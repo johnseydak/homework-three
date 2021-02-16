@@ -1,9 +1,21 @@
 .hero {
     width: 1280px;
     height: 500px;
-    background-image: linear-gradient(to right, $overlay-black, $overlay-black), url(../images/hero.jpg);
+    background-image: $overlay, url(../images/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     margin: 0 auto;
+    padding-top: 20px;
+
+        //.nav {
+
+            //.logo {
+
+            //}
+            //.links {
+                //font-family: "GillSans";
+            //}
+
+       //}
 }

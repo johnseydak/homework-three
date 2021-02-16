@@ -31,13 +31,13 @@ p {
   background-size: cover;
   background-position: center;
   margin: 0 auto;
+  padding-top: 20px;
 }
 
 .promo-tours {
   width: 1280px;
   height: 304px;
-  background-color: aqua;
-  margin: 0 auto;
+  margin: -50px auto;
   display: flex;
   justify-content: space-around;
   padding-left: 150px;
@@ -45,7 +45,125 @@ p {
 }
 .promo-tours .promo {
   height: 304px;
-  width: 236;
+  width: 236px;
   background-color: bisque;
-  margin-right: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.promo-tours .promo .header {
+  font-family: GillSans;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.promo-tours .promo .price {
+  margin-bottom: 70px;
+}
+.promo-tours .promo .learn-more {
+  background-color: #79ADDC;
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+.promo-tours .israel {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-01.jpg);
+}
+.promo-tours .usa {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-02.jpg);
+}
+.promo-tours .austrailia {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-03.jpg);
+}
+
+footer {
+  width: 1280px;
+  height: 100px;
+  background-color: #79ADDC;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 120px;
+}
+footer .logo {
+  width: 92px;
+  height: 42px;
+  align-self: center;
+}
+footer .copyright {
+  font-size: 12px;
+  align-self: center;
+  color: #fff;
+}
+footer .socialmedia {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  color: #fff;
+}
+
+.booking-form {
+  width: 1280px;
+  height: 890px;
+  margin: 100px auto -100px auto;
+  background-color: beige;
+  display: flex;
+}
+.booking-form .name {
+  margin: 40px auto;
+  padding: 10px 30px;
+  border: #79ADDC solid 1px;
+}
+.booking-form .email {
+  margin: 40px auto;
+  padding: 10px 30px;
+  border: #79ADDC solid 1px;
+}
+.booking-form .country {
+  margin: 40 auto;
+  padding: 10px 30px;
+  border: #79ADDC solid 1px;
+}
+.booking-form .hotel {
+  margin: 40 auto;
+  padding: 10px 30px;
+  border: #79ADDC solid 1px;
+}
+
+.nav {
+  width: 980px;
+  height: 60px;
+  border-bottom: #fff solid 3px;
+  margin: 20px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.nav .logo {
+  width: 92px;
+  height: 42px;
+  align-self: center;
+}
+.nav .links {
+  width: 400px;
+  height: 42px;
+  font-family: GillSans;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav .links div.pipe {
+  color: #79ADDC;
+  font-size: 20px;
+}
+.nav .links div a {
+  font-family: "GillSans";
+  font-size: 15px;
+  text-decoration: none;
+  color: #fff;
+  margin: auto;
+  text-transform: lowercase;
 }
