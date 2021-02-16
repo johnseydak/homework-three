@@ -1,0 +1,14 @@
+.promo-tours {
+  width: 1280px;
+  height: 304px;
+  background-color: aqua;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.promo-tours .promo {
+  height: 304px;
+  width: 236;
+  background-color: bisque;
+  margin-right: 50px;
+}
