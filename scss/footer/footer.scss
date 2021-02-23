@@ -1,7 +1,8 @@
 footer {
-    width: 1280px;
+    max-width: 1280px;
     height:100px;
     background-color: $site-blue;
+    background-size:cover;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
